@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.todoList{
+  text-align: center;
+}
+
+.addTask{
+  border: 2px solid darkgreen;
+  border-radius: 25px;
+  background-color: rgb(143, 190, 143);
+  padding: 10px;
+  color: darkgreen;
+}
+.addTask:hover{
+  background-color: rgb(209, 245, 209);
+}
+.removeTask:hover{
+  background-color: rgb(249, 214, 214);
+}
+
+.removeTask{
+  border: 2px solid darkred;
+  border-radius: 25px;
+  background-color: rgb(249, 115, 115);
+  padding: 10px;
+  color: darkred;
+  margin-left: 10px;
+}
